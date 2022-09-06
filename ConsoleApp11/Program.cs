@@ -40,7 +40,7 @@ class Program
         Capital.AddWorker(s3);
         Capital.AddClient(client);
 
-        Console.WriteLine("Profit Bank in Month=>", Capital.CalculateProfit());
+        Console.WriteLine($"Profit Bank in Month=>{Capital.CalculateProfit()}");
 
         Capital.ShowAllCredit();
 
